@@ -1,9 +1,9 @@
-/** {*/
+* {
 /*    margin: 0;*/
-/*    padding: 0;*/
-/*}*/
+    padding: 1em 0;
+}
 body {
-    display: flex;
+   display: flex;
     flex-direction: column;
     padding: 1em;
 }
@@ -13,6 +13,22 @@ body {
         display: none;
     }
 }
+
+@media only screen and (max-width: 992px) {
+    li {
+        width: 100%;
+        background-color: #CCCCCC;
+        padding: 1em;
+        margin: 1em auto;
+        text-align: center;
+        border: 1px solid black;
+    }
+
+    li a {
+        margin: auto;
+    }
+}
+
 .alert-info {
     width: 100%;
     border: 1px solid lightgrey;
@@ -26,7 +42,11 @@ body {
     text-decoration: none;
     color: black;
 }
-h1 {
 
+ul {
+    list-style: none;
 }
+
+
+
 
