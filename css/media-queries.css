@@ -1,9 +1,32 @@
-@media screen and (max-width: )
-
-.alert-info {
-
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
 }
-.hidden-on-desktop {
+
+@media only screen and (min-width: 992px) {
+    .hidden-on-desktop {
+        display: none;
+    }
+}
+.alert-info {
+    width: 100%;
+    border: 1px solid lightgrey;
+    background-color: #CCFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    margin: auto;
+}
+.alert-info a {
+    text-decoration: none;
+    color: black;
+}
+h1 {
 
 }
 
