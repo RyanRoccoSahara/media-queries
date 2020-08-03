@@ -1,3 +1,6 @@
+body {
+    margin: 1.5em;
+}
 .alert-info {
     background-color: #CCFFFF;
     border: 1px solid black;
@@ -42,7 +45,8 @@ ul {
     .header-img {
         display: flex;
         justify-content: center;
-        padding: 1rem;
+
+        margin: 0 auto;
     }
     .header-img img {
         width: 100%;
@@ -82,7 +86,8 @@ ul {
     }
 
     .header-img img {
-        margin: auto;
+        /*margin: auto;*/
+        width: 100%;
     }
     .main {
         width: 60%;
@@ -107,6 +112,9 @@ ul {
     }
     #social-media-links {
         margin-left: auto;
-        justify-content: space-between;
+        /*justify-content: space-between;*/
+    }
+    #social-media-links i {
+        padding: 1em;
     }
 }
