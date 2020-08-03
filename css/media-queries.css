@@ -98,4 +98,15 @@ ul {
         box-sizing: border-box;
         margin-bottom: 8em;
     }
+
+    footer {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+    }
+    #social-media-links {
+        margin-left: auto;
+        justify-content: space-between;
+    }
 }
